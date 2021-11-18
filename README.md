@@ -11,7 +11,7 @@ Google Books Finder is an app that allows you to find a book. This app is develo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Packages that Have To Install After Creating React
+## Packages That Have To Install After Creating React
 
 ---
 
