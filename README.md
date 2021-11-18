@@ -1,3 +1,6 @@
+![google books gif](https://user-images.githubusercontent.com/65918041/142437957-37efb6a0-182b-4b50-b9f5-6c79bb36e68e.gif)
+
+
 # Project Explanation
 
 Google Books Finder is an app that allows you to find a book. This app is developed using Google Books API so that's why you will just find books that Google Books have. Also, you can set up max result, that is the number of books that will be shown on the page.
