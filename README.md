@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. `Reactstrap (npm i reactstrap)`
 2. `Bootstrap (npm i bootstrap)`
 3. `Toastify (npm i react-toastify)`
-4. `Axios (react i axios)`
+4. `Axios (npm i axios)`
 
 ## Package Explanation
 

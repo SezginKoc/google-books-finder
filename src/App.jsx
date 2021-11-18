@@ -65,7 +65,7 @@ const [cards, setCards]=useState([])
 
             {/* Overlay */}
             <div className="filter"> </div>
-            <h1 className="display-2 text-center text-white mb-3" style={{zIndex:2}}>Google Books</h1>
+            <h1 className="display-2 text-center text-white mb-3 " style={{zIndex:2}}>Google Books</h1>
 
                                               
             <div style={{width:"60%", zIndex:2}}> 
@@ -100,7 +100,7 @@ const [cards, setCards]=useState([])
                                                 {/*!!!! Bootsrap ile Form */}
                 <div className="d-flex text-white justify-content-center  ">
                   <div className="mb-3 mx-4">
-                    <label htmlFor="maxResults" className="form-label">Max Results</label>
+                    <label htmlFor="maxResults" className="form-label"> Max Results </label>
                     <input 
                       value={maxResults}
                       onChange={e=> setMaxResults(e.target.value)}
@@ -109,7 +109,7 @@ const [cards, setCards]=useState([])
                       id="maxResults" 
                       placeholder="Max Results"/>
                   </div>
-                  <div className="mb-3 mx-4">
+                  {/* <div className="mb-3 mx-4">
                     <label htmlFor="startIndex" className="form-label">Start Index</label>
                     <input 
                       type="number" 
@@ -119,8 +119,7 @@ const [cards, setCards]=useState([])
                       value={startIndex}
                       onChange={e=> setStartIndex(e.target.value)}
                       />
-                      
-                  </div>
+                  </div> */}
 
                                                 {/* !!! Reactstrap ile form */}
 
