@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# Project Explanation
+
+Google Books Finder is an app that allows you to find a book. This app is developed using Google Books API so that's why you will just find books that Google Books have. Also, you can set up max result, that is the number of books that will be shown on the page.
+
+## Getting Started with Create React App
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Packages that Have To Install After Creating React
+
+---
+
+1. `Reactstrap (npm i reactstrap)`
+2. `Bootstrap (npm i bootstrap)`
+3. `Toastify (npm i react-toastify)`
+4. `Axios (react i axios)`
+
+## Package Explanation
+
+---
+
+- `Reactstratp`\
+  Reactstrap is a React component library for Bootstrap
+- `Bootstrap`\
+  Bootstrap is most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.
+- `Toastify` \
+  React toastift allows you to add notifications to your app with ease.
+- `Axios`\
+  Axios is a simple promise-based HTTP client for the browser.
 
 ## Available Scripts
 
