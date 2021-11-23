@@ -99,6 +99,7 @@ const [cards, setCards]=useState([])
                     <input 
                       value={maxResults}
                       onChange={e=> setMaxResults(e.target.value)}
+                      onKeyPress={(event) => event.key==="Enter" && handleSubmit()}
                       type="number" 
                       className="form-control" 
                       id="maxResults" 
