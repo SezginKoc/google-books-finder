@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/google books gif.gif
+/google books video.mp4
 # testing
 /coverage
 

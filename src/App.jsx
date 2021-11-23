@@ -48,12 +48,7 @@ const [cards, setCards]=useState([])
          });
       }
     };
-     const  handleKeyPress= (event)=>{
-        if(event.keyCharCode===13){
-          event.preventDefault();
-          return handleSubmit
-        } 
-      }
+
   
   //! Main Show Case
       const mainHeader =() => {
@@ -73,7 +68,7 @@ const [cards, setCards]=useState([])
                                               {/*!!!! Bootsrap ile Search Bar*/}
                 <div className="input-group mb-3" >
                     <input type="text"
-                      onKeyPress={handleKeyPress}
+                      onKeyPress={(event) => event.key==="Enter" && handleSubmit()}
                       value={query}
                       onChange={e=> setQuery(e.target.value)}
                       className="form-control fs-4" 
