@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: googlebookstracker.netlify.app
-Token: ed74bb177c83de417acad94aefa57f25508933fef17b35d3139c44f6464b3df5
