@@ -105,7 +105,7 @@ const [cards, setCards]=useState([])
                       id="maxResults" 
                       placeholder="Max Results"/>
                   </div>
-                  {/* <div className="mb-3 mx-4">
+                  <div className="mb-3 mx-4">
                     <label htmlFor="startIndex" className="form-label">Start Index</label>
                     <input 
                       type="number" 
@@ -115,7 +115,7 @@ const [cards, setCards]=useState([])
                       value={startIndex}
                       onChange={e=> setStartIndex(e.target.value)}
                       />
-                  </div> */}
+                  </div>
 
                                                 {/* !!! Reactstrap ile form */}
 
