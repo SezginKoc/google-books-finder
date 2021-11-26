@@ -17,7 +17,7 @@ function App() {
 
                         //! States
 const [maxResults, setMaxResults]=useState(10);
-const [startIndex, setStartIndex]=useState(0);
+const [startIndex]=useState(0);
 const [query, setQuery]=useState("");
 const [loading, setLoading] = useState(false)
 const [cards, setCards]=useState([])
@@ -32,7 +32,7 @@ const [cards, setCards]=useState([])
         axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=${maxResults}&startIndex=${startIndex}`
         ).then(res=>{
           if (startIndex > res.data.totalItems || startIndex < 0){
-            toast.error(`max results must be between 1 and ${res.data.totalItems} `);
+            toast.error(`max start index must be between 1 and ${res.data.totalItems} `);
           } 
           else {
             if (res.data.items.length > 0) {
@@ -105,7 +105,8 @@ const [cards, setCards]=useState([])
                       id="maxResults" 
                       placeholder="Max Results"/>
                   </div>
-                  <div className="mb-3 mx-4">
+
+                  {/* <div className="mb-3 mx-4">
                     <label htmlFor="startIndex" className="form-label">Start Index</label>
                     <input 
                       type="number" 
@@ -115,7 +116,7 @@ const [cards, setCards]=useState([])
                       value={startIndex}
                       onChange={e=> setStartIndex(e.target.value)}
                       />
-                  </div>
+                  </div> */}
 
                                                 {/* !!! Reactstrap ile form */}
 
