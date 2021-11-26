@@ -6,7 +6,7 @@
 .pnp.js
 /google books gif.gif
 /google books video.mp4
-/build
+./build
 # testing
 /coverage
 
