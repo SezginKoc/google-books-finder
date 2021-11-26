@@ -1,5 +1,0 @@
-//! Bootstrap ile spinner
-
-//! HOOK   
-
-//! States
