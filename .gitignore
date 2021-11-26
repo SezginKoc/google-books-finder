@@ -6,13 +6,12 @@
 .pnp.js
 /google books gif.gif
 /google books video.mp4
-./build
+
 # testing
 /coverage
 
 # production
-
-
+/build
 
 
 # misc
@@ -28,3 +27,4 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+build
