@@ -60,7 +60,7 @@ const [cards, setCards]=useState([])
 
             {/* Overlay */}
             <div className="filter"> </div>
-            <h1 className="display-2 text-center text-white mb-3 " style={{zIndex:2}}>Google Books Finder</h1>
+            <h1 className="display-2 text-center text-white mb-3 " style={{zIndex:2}}>Google Books API Sezgin KOÇ</h1>
 
                                               
             <div style={{width:"60%", zIndex:2}}> 
